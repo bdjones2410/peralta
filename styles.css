@@ -1,0 +1,111 @@
+/*************************************
+  GENERAL
+*************************************/
+body{
+  background-image: url(images/bg.jpg);
+  background-position: top;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100%;
+  margin: 0;
+  padding:0;
+  position: fixed;
+}
+/*************************************
+BODY
+*************************************/
+
+
+/*************************************
+HEADER
+*************************************/
+header {
+  height: 500px;
+  width: 55%;
+  border:1px black solid;
+  margin-top:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul#icons {
+  margin:0;
+  
+}
+.box img {
+  height: 25px;
+  width:25px;
+  filter:brightness(0.5);
+}
+.box {
+  display: inline-block;
+  float: right;
+  padding: 3px;
+  opacity: 0.8;
+}
+
+ul#topnav {
+  display:inline-block;
+  list-style: none;
+  width:100%;
+  position: relative;
+  align-items: center;
+  padding: 0;
+}
+
+ul#topnav li{
+  padding-top:3px;
+  padding-bottom:3px;
+  text-align: center;
+  width:24.5%;
+  height:20px;
+  display:inline-block;
+  background-color: red;
+  color:white;
+  box-shadow: 0px 5px 0px rgba(0,0,0,0.5);
+
+
+}
+ul#topnav li:nth-child(4){
+  margin-right: none;
+}
+
+div.wrapper {
+    height: 300px;
+    background-image: url(images/top-image.png);
+    background-size: 1121px;
+    background-repeat: no-repeat;
+    background-position-y: -91px;
+    background-position-x: -80px;
+  }
+div.banner {
+  height:95%;
+  background-image: url(images/grid.png);
+  background-position:fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  border:10px white solid;
+  opacity: 0.25;
+
+}
+/*div.banner::after {
+  background-image: url(images/grid.png);
+  opacity: 0.25;
+  background-position:fixed;
+  background-repeat: no-repeat
+}*/
+
+div.banner img {
+  height: 70%;
+  position: absolute;
+  margin-top: auto;
+  margin: 5% 5%;
+}
+
+/*************************************
+SECTION
+*************************************/
+
+/*************************************
+FOOTER
+*************************************/

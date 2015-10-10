@@ -3,12 +3,14 @@ GENERAL
 **********************************************/
 
 body {
-    /*background-image: url(images/powell_peralta.jpg);*/
-    background-image: url(images/bg.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 1575px;
-    background-size: 100%;
+  /*background-image: url(images/powell_peralta.jpg);*/
+  /*background-image: url(images/bg.jpg);*/
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/bg.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 1575px;
+  background-size: 100%;
+
 }
 /**********************************************
 TOP NAV
@@ -27,7 +29,7 @@ nav > p {
   margin-left: 390px;
   font-size: 10px;
   margin-top: 14px;
-  color: #12130F;
+  color: white;
   font-weight: bold;
 }
 
@@ -61,7 +63,7 @@ nav > p {
    margin-top: 0;
    padding-left: 0;
    width: 197px;
-   border-left: 4px black dotted;
+   border-left: 4px white dotted;
 }
 ul#iconbar li:nth-child(4){
   margin-left: 0;
@@ -80,12 +82,13 @@ ul#iconbar li:nth-child(4){
   width: 174px;
   margin-right: 5px;
   text-align: center;
-  background-color: red;
+  background-color: #B4272D;
   text-align: center;
   padding-top: 6px;
   font-weight: bolder;
   box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
   padding-bottom: 3px;
+  color: white;
 }
 ul#redBar li:nth-child(4) {
   margin-right:0;

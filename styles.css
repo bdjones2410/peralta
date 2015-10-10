@@ -104,11 +104,11 @@ MAIN IMAGE
 }
 div.grid {
   width: 712px;
-  height: 249px;
+  height: 247px;
   background-image: url(images/grid.png);
   opacity: 0.2;
   position: absolute;
-  bottom: 269px;
+  top: 104px;
   left: 349px;
 }
 div.border {

@@ -33,7 +33,6 @@ nav > p {
   font-weight: bold;
 }
 
-
 .box  {
     display: inline-block;
     height: 42px;
@@ -42,7 +41,7 @@ nav > p {
     float: right;
     margin-left: 7px;
     transition: all .5 ease-in-out;
-    box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
 }
 .box:hover {
   transform: scale(1.5);
@@ -86,7 +85,7 @@ ul#iconbar li:nth-child(4){
   text-align: center;
   padding-top: 6px;
   font-weight: bolder;
-  box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
   padding-bottom: 3px;
   color: white;
 }
@@ -95,7 +94,7 @@ ul#redBar li:nth-child(4) {
 }
 
 /**********************************************
-MAIN IMAGE
+MAIN IMAGE & CIRCLES
 **********************************************/
 
 #topPic {
@@ -109,7 +108,7 @@ MAIN IMAGE
   background-repeat: no-repeat;
   background-position-y: -102px;
   background-position-x: -104px;
-  box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
 }
 div.grid {
   width: 712px;
@@ -137,6 +136,30 @@ div.logo {
   height: 167px;
   z-index: +1;
 }
+
+ul#botdot {
+  position: absolute;
+  margin-left: 293px;
+  margin-top: 15px;
+}
+
+.circles {
+  display: inline-block;
+  margin: 3px;
+  padding: 1px;
+  border: 4px white solid;
+  background-color: white;
+  border-radius: 100%;
+  height: 2px;
+  width: 2px;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+  transition: all .5 ease-in-out;
+}
+
+.circles:hover {
+  background-color: #B4272D;
+}
+
 
 
 /**********************************************

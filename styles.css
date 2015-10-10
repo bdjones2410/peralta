@@ -12,6 +12,14 @@ body {
   background-size: 100%;
 
 }
+
+.wrapper {
+  width: 721px;
+  margin-left: 335px;
+  margin-top: -4px;
+  height: 400px;
+}
+}
 /**********************************************
 TOP NAV
 **********************************************/
@@ -19,8 +27,8 @@ TOP NAV
 .topSection {
   width: 722px;
   height: 97px;
-  margin-left: 336px;
-  margin-top:-3px;
+  margin-left: 0;
+  margin-top: 0;
 }
 
 
@@ -101,7 +109,7 @@ MAIN IMAGE & CIRCLES
   background-image: url(images/top-image.png);
   height: 250px;
   width: 722px;
-  margin-left: 336px;
+  margin-left: 0;
   overflow: hidden;
   margin-top: 1px;
   background-size: 1060px;

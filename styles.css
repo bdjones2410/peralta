@@ -1,111 +1,135 @@
-/*************************************
-  GENERAL
-*************************************/
-body{
-  background-image: url(images/bg.jpg);
-  background-position: top;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  width:100%;
-  height:100%;
-  margin: 0;
-  padding:0;
-  position: fixed;
-}
-/*************************************
-BODY
-*************************************/
+/**********************************************
+GENERAL
+**********************************************/
 
-
-/*************************************
-HEADER
-*************************************/
-header {
-  height: 500px;
-  width: 55%;
-  border:1px black solid;
-  margin-top:0;
-  margin-left: auto;
-  margin-right: auto;
-}
-ul#icons {
-  margin:0;
-  
-}
-.box img {
-  height: 25px;
-  width:25px;
-  filter:brightness(0.5);
-}
-.box {
-  display: inline-block;
-  float: right;
-  padding: 3px;
-  opacity: 0.8;
-}
-
-ul#topnav {
-  display:inline-block;
-  list-style: none;
-  width:100%;
-  position: relative;
-  align-items: center;
-  padding: 0;
-}
-
-ul#topnav li{
-  padding-top:3px;
-  padding-bottom:3px;
-  text-align: center;
-  width:24.5%;
-  height:20px;
-  display:inline-block;
-  background-color: red;
-  color:white;
-  box-shadow: 0px 5px 0px rgba(0,0,0,0.5);
-
-
-}
-ul#topnav li:nth-child(4){
-  margin-right: none;
-}
-
-div.wrapper {
-    height: 300px;
-    background-image: url(images/top-image.png);
-    background-size: 1121px;
+body {
+    /*background-image: url(images/powell_peralta.jpg);*/
+    background-image: url(images/bg.jpg);
+    background-position: top;
     background-repeat: no-repeat;
-    background-position-y: -91px;
-    background-position-x: -80px;
-  }
-div.banner {
-  height:95%;
-  background-image: url(images/grid.png);
-  background-position:fixed;
+    height: 1575px;
+    background-size: 100%;
+}
+/**********************************************
+TOP NAV
+**********************************************/
+
+.topSection {
+  width: 722px;
+  height: 97px;
+  margin-left: 336px;
+  margin-top:-3px;
+}
+
+
+nav > p {
+  display: inline-block;
+  margin-left: 390px;
+  font-size: 10px;
+  margin-top: 14px;
+  color: #12130F;
+  font-weight: bold;
+}
+
+
+.box  {
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    float: right;
+    margin-left: 7px;
+    box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+}
+
+.box img {
+  height:100%;
+}
+
+
+ ul#iconbar {
+   display: inline-block;
+   margin: 0;
+   float: right;
+   margin-right: 0px;
+   margin-top: 0;
+   padding-left: 0;
+   width: 197px;
+   border-left: 4px black dotted;
+}
+ul#iconbar li:nth-child(4){
+  margin-left: 0;
+}
+
+ ul#redBar {
+    display: inline-block;
+    margin-left: 0;
+    width: 724px;
+    padding: 0;
+    margin-top: 14px;
+}
+.bars {
+  display: inline-block;
+  height: 18px;
+  width: 174px;
+  margin-right: 5px;
+  text-align: center;
+  background-color: red;
+  text-align: center;
+  padding-top: 6px;
+  font-weight: bolder;
+  box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
+  padding-bottom: 3px;
+}
+ul#redBar li:nth-child(4) {
+  margin-right:0;
+}
+
+/**********************************************
+MAIN IMAGE
+**********************************************/
+
+#topPic {
+  background-image: url(images/top-image.png);
+  height: 250px;
+  width: 722px;
+  margin-left: 336px;
+  overflow: hidden;
+  margin-top: 1px;
+  background-size: 1060px;
   background-repeat: no-repeat;
-  position: relative;
-  border:10px white solid;
-  opacity: 0.25;
-
+  background-position-y: -102px;
+  background-position-x: -104px;
+  box-shadow: 0px 4px 0px rgba(0,0,0,0.2);
 }
-/*div.banner::after {
+div.grid {
+  width: 712px;
+  height: 249px;
   background-image: url(images/grid.png);
-  opacity: 0.25;
-  background-position:fixed;
-  background-repeat: no-repeat
-}*/
-
-div.banner img {
-  height: 70%;
+  opacity: 0.2;
   position: absolute;
-  margin-top: auto;
-  margin: 5% 5%;
+  bottom: 269px;
+  left: 349px;
+}
+div.border {
+
+  height: 238px;
+  border: 7px white solid;
 }
 
-/*************************************
-SECTION
-*************************************/
+div.logo {
+  height: 169px;
+  width: 288px;
+  margin-left: 14px;
+  margin-top: 35px;
+}
+.logo img {
+  position: absolute;
+  height: 167px;
+  z-index: +1;
+}
 
-/*************************************
-FOOTER
-*************************************/
+
+/**********************************************
+ARTICLES
+**********************************************/

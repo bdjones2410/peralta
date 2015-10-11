@@ -45,14 +45,14 @@ nav > p {
 }
 
 .box  {
-    display: inline-block;
-    height: 42px;
-    width: 42px;
-    text-align: center;
-    float: right;
-    margin-left: 7px;
-    transition: all .5 ease-in-out;
-    box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  float: right;
+  margin-left: 7px;
+  transition: all .5 ease-in-out;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
 }
 .box:hover {
   transform: scale(1.5);
@@ -65,13 +65,13 @@ nav > p {
 }
 
 
- ul#iconbar {
-       display: inline-block;
-       margin: 0;
-       float: right;
-       margin-top: 0;
-       padding-left: 0;
-       width: 32.3%;
+ul#iconbar {
+ display: inline-block;
+ margin: 0;
+ float: right;
+ margin-top: 0;
+ padding-left: 0;
+ width: 32.3%;
 }
 
 .smDot {
@@ -106,18 +106,19 @@ div.links {
 }
 .bars {
   display: inline-block;
-      font-size: 0.7em;
-      height: 36%;
-      width: 24%;
-      padding-top: 1%;
-      margin-top: .6%;
-      margin-right: .7%;
-      text-align: center;
-      background-color: #B4272D;
-      box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
-      padding-bottom: 3px;
-      color: white;
+  font-size: 0.7em;
+  height: 36%;
+  width: 24%;
+  padding-top: 1%;
+  margin-top: .6%;
+  margin-right: .7%;
+  text-align: center;
+  background-color: #B4272D;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+  padding-bottom: 3px;
+  color: white;
 }
+
 ul#redBar li:nth-child(4) {
   margin-right:0;
 }
@@ -233,14 +234,48 @@ ARTICLES
 
 .readmore a {
 
-      font-size: .8em;
-      font-weight: bold;
-      text-decoration: none;
-      color: #B4272D;
-      text-align: center;
-      width: 100%;
-      position: absolute;
-      bottom: 14px;
-      left: 0;
-  }
+  font-size: .8em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #B4272D;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+}
+
+
+/**********************************************
+ARROW
+**********************************************/
+
+#arrow {
+  background: #B4272D;
+  display: inline-block;
+  height: 68px;
+  position: relative;
+  width: 172px;
+  margin-left: 10.5%;
+  margin-top: 3.7%;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+}
+
+#arrow::after {
+  border-bottom: 34px solid transparent;
+  border-top: 34px solid transparent;
+  border-left: 21px solid rgb(180, 39, 45);
+  content: "";
+  left: 172px;
+  position: absolute;
+}
+
+#arrow span {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  width: 100%;
+  position: absolute;
+  margin-top: 15%;
+  padding-top: auto;
 }

@@ -425,14 +425,54 @@ FORMBOX
   position: absolute;
   margin-top: 1.8%;
   height: 43.4%;
+  background-color: white;
   box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+  opacity: .9;
 }
 
-.stand {
+.leftbox {
   position: relative;
-
+  height: 100%;
+  display: inline-block;
+  width: 54%;
 }
-form {
-  display:inline-block;
-  margin:0;
+.rightbox {
+  position: relative;
+  height: 100%;
+  display: inline-block;
+  width: 45.4%;
+  float: right;
+}
+
+input {
+  margin-top: 3.5%;
+  height: 10%;
+  width: 92%;
+  color: lightgrey;
+  font-weight: 300;
+  font-size: .7em;
+  text-align: left;
+  vertical-align: text-top;
+  padding-left: 3%;
+  border-style: groove;
+}
+
+input:nth-child(1) {
+  margin-top: 7%;
+}
+
+input:nth-child(5) {
+  height: 11%;
+  padding-bottom: 13%;
+}
+
+.submit {
+  width: 53%;
+  margin-left: 40.6%;
+  margin-top: 7%;
+  height: 11%;
+  text-align: center;
+  color: white;
+  background-color: #B4272D;
+  font-size: .9em;
 }

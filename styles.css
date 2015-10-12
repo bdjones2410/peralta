@@ -266,6 +266,7 @@ ARROW
   margin-left: 10.5%;
   margin-top: 3.7%;
   box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+  animation: wiggle 1s infinite;
 }
 #arrow::before{
   border-bottom: 34px solid transparent;
@@ -295,7 +296,15 @@ ARROW
   margin-top: 15%;
   padding-top: auto;
 }
-
+@keyframes wiggle {
+  0%,50%,100% {transform: rotate(0)}
+  7%,43% {transform: rotate(3deg)}
+  14%,36%, {transform: rotate(7deg)}
+  25% {transform: rotate(10deg)}
+  57%,93% {transform: rotate(-3deg)}
+  64%,86%, {transform: rotate(-7deg)}
+  75% {transform: rotate(-10deg)}
+}
 /**********************************************
 SKATERS
 **********************************************/
@@ -411,11 +420,12 @@ SKATEBOARDS
   height: 89%;
   margin-top: 1.2%;
   margin-left: 2.9%;
+  animation: silly 5s infinite;
 }
 
-.boardbar:hover{
-  transform:scale(1.4);
-  transform-origin:center;
+@keyframes silly {
+from {transform: rotateY(0deg);}
+to {transform: rotateY(360deg);}
 }
 
 /**********************************************

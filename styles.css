@@ -58,6 +58,12 @@ nav > p {
   transform: scale(1.5);
   transform-origin: top right;
   z-index: +2;
+  box-shadow: none;
+}
+
+.box:nth-child(5):hover{
+  transform: none;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
 }
 
 .box img {
@@ -260,14 +266,23 @@ ARROW
   margin-top: 3.7%;
   box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
 }
-
-#arrow::after {
+#arrow::before{
   border-bottom: 34px solid transparent;
   border-top: 34px solid transparent;
   border-left: 21px solid rgb(180, 39, 45);
   content: "";
   left: 172px;
   position: absolute;
+  z-index: +1;
+}
+#arrow::after {
+  border-bottom: 34px solid transparent;
+  border-top: 34px solid transparent;
+  border-left: 21px solid rgba(148, 148, 148, 0.6);
+  content: "";
+  left: 172px;
+  position: absolute;
+  top: 4px;
 }
 
 #arrow span {
@@ -283,6 +298,9 @@ ARROW
 /**********************************************
 SKATERS
 **********************************************/
+
+
+
 .skaters {
   padding: 0;
   position: relative;
@@ -297,14 +315,23 @@ SKATERS
   width: 51.3%;
 }
 .sk8 span {
-  color:white;
+  color: #FFFFFF;
+  display: inline-block;
+  text-align: center;
+  margin-left: -1%;
+  line-height: 31.3%;
+  vertical-align: middle;
+  font-size: 2.2em;
+  margin-top: 17%;
+  line-height: 1.2;
+  font-weight: bolder;
 }
 
 .first {
   display: inline-block;
   width: 31.3%;
   height: 44.6%;
-  border: 5px #E80000 solid;
+  border: 5px #FFF solid;
   margin-left: -1px;
   background-image: url(images/sk8er-4.png);
   background-size: 140%;
@@ -318,7 +345,7 @@ SKATERS
   display: inline-block;
   width: 31.3%;
   height: 44.6%;
-  border: 5px #E80000 solid;
+  border: 5px #FFF solid;
   margin-left: 3px;
   background-image: url(images/sk8er-3.png);
   background-size: 135%;
@@ -331,7 +358,7 @@ SKATERS
   display: inline-block;
   width: 31.3%;
   height: 94.6%;
-  border: 5px #E80000 solid;
+  border: 5px #FFF solid;
   background-image: url(images/sk8er-2.png);
   margin-left: 2px;
   background-size: 255%;
@@ -341,12 +368,16 @@ SKATERS
   margin-right: 0px;
   box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
 }
+.third > span {
+position: relative;
+top: 25%;
+}
 
 .fourth {
   display: inline-block;
   width: 65%;
   height: 44.7%;
-  border: 5px #E80000 solid;
+  border: 5px #FFF solid;
   margin-left: -1px;
   flat: left;
   position: absolute;
@@ -356,4 +387,52 @@ SKATERS
   background-position-x: 13%;
   background-image: url(images/sk8er-1.png);
   box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+}
+.fourth > span {
+  margin-top: 11%;
+  margin-left: 20%;
+  font-size: 2em;
+}
+
+
+/**********************************************
+SKATEBOARDS
+**********************************************/
+
+.boards {
+  margin-top: 17%;
+  background-color: WHITE;
+  height: 13.5%;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6)
+}
+
+.boardbar {
+  height: 89%;
+  margin-top: 1.2%;
+  margin-left: 2.9%;
+}
+
+.boardbar:hover{
+  transform:scale(1.5);
+  transform-origin:center;
+}
+
+/**********************************************
+FORMBOX
+**********************************************/
+.botform {
+  margin-left: 24.4%;
+  position: absolute;
+  margin-top: 1.8%;
+  height: 43.4%;
+  box-shadow: 0px 4px 0px rgba(148,148,148,0.6);
+}
+
+.stand {
+  position: relative;
+
+}
+form {
+  display:inline-block;
+  margin:0;
 }

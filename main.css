@@ -1,0 +1,434 @@
+/**********************************************
+GENERAL
+**********************************************/
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  body .leftarrow {
+    display: inline-block;
+    margin-left: 9%;
+    margin-top: 53%;
+    position: absolute; }
+  body .wrapper {
+    width: 51.2%;
+    margin-left: 25%;
+    display: inline-block;
+    margin-top: .4%; }
+  body .mid {
+    margin-top: 0; }
+
+/**********************************************
+TOP NAV
+**********************************************/
+header nav p {
+  display: inline-block;
+  margin-left: 54%;
+  font-size: 10px;
+  margin-top: 2%;
+  color: white;
+  font-weight: bold; }
+
+.box {
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  text-align: center;
+  float: right;
+  margin-left: 7px;
+  transition: all .5 ease-in-out;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6); }
+  .box.box:hover {
+    transform: scale(1.5);
+    transform-origin: top right;
+    z-index: +2;
+    box-shadow: none; }
+  .box.box:nth-child(5):hover {
+    transform: none; }
+  .box img {
+    height: 100%; }
+
+ul#iconbar {
+  display: inline-block;
+  margin: 0;
+  float: right;
+  margin-top: 0;
+  padding-left: 0; }
+  ul#iconbar li .smDot {
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 0;
+    margin-left: 61%;
+    margin-top: 6%; }
+  ul#iconbar li .smDot:nth-child(1) {
+    margin-top: 17%; }
+  ul#iconbar li:nth-child(4) {
+    margin-left: 0; }
+  ul#iconbar li:nth-child(5) {
+    box-shadow: none; }
+
+ul#redBar {
+  display: inline-block;
+  width: 100%;
+  padding: 0; }
+  ul#redBar .bars {
+    display: inline-block;
+    font-size: 0.7em;
+    width: 24%;
+    padding-top: 1%;
+    margin-top: .6%;
+    margin-right: .7%;
+    text-align: center;
+    background-color: #B4272D;
+    box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+    padding-bottom: 1%;
+    color: white; }
+    ul#redBar .bars span {
+      margin: 0 5%; }
+
+ul#redBar li:nth-child(4) {
+  margin-right: 0; }
+
+/**********************************************
+MAIN IMAGE & CIRCLES
+**********************************************/
+#topPic {
+  background-image: url(images/top-image.png);
+  height: 59.4%;
+  border: 7px white solid;
+  margin-left: 0;
+  overflow: hidden;
+  position: relative;
+  background-size: 149%;
+  background-repeat: no-repeat;
+  background-position-y: 27%;
+  background-position-x: 32%;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+  height: 250px; }
+
+div.grid {
+  width: 100%;
+  height: 100%;
+  background-image: url(images/grid.png);
+  opacity: 0.4;
+  position: absolute;
+  top: 0%;
+  left: 0; }
+
+div.logo {
+  margin-left: 2%;
+  margin-top: 5%; }
+
+.logo img {
+  position: absolute;
+  height: 70%;
+  z-index: +1; }
+
+ul#botdot {
+  margin-left: 41%; }
+
+.circles {
+  display: inline-block;
+  margin: 3px;
+  padding: 1px;
+  border: 4px white solid;
+  background-color: white;
+  border-radius: 100%;
+  height: 2px;
+  width: 2px;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+  transition: all .5 ease-in-out; }
+  .circles.circles:hover {
+    background-color: #B4272D; }
+
+/**********************************************
+ARTICLES
+**********************************************/
+.readmore {
+  display: inline-block;
+  vertical-align: top;
+  width: 26.7%;
+  margin-left: .3%;
+  background-color: #FFFFFF;
+  height: 275px;
+  font-size: .76em;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: grey;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+  position: relative; }
+  .readmore h2 {
+    color: black;
+    font-size: 1.4em;
+    margin-bottom: 6%;
+    float: left;
+    margin-top: 10%; }
+  .readmore a {
+    font-size: .8em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #B4272D;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+    left: 0; }
+
+.readmore:nth-child(1) {
+  margin-left: 0; }
+
+.readmore p:nth-child(2) {
+  float: left;
+  margin-top: 0%;
+  clear: both;
+  font-size: 0.8em; }
+
+.readmore p:nth-child(3) {
+  font-size: 0.8em;
+  clear: both;
+  min-height: 43%;
+  line-height: 1.7;
+  margin-top: 3%;
+  float: left;
+  width: 102%;
+  margin-bottom: 0;
+  height: 43%;
+  overflow: hidden;
+  text-overflow: clip; }
+
+/**********************************************
+ARROW
+**********************************************/
+#arrow {
+  background: #B4272D;
+  display: inline-block;
+  height: 68px;
+  position: relative;
+  width: 172px;
+  margin-left: 13.5%;
+  margin-top: 3.7%;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+  animation: wiggle 1s infinite; }
+  @media screen and (max-width: 1370px) {
+    #arrow {
+      margin-left: 9.8%; } }
+  #arrow span {
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    width: 100%;
+    position: absolute;
+    margin-top: 15%;
+    padding-top: auto; }
+
+#arrow::before {
+  border-bottom: 34px solid transparent;
+  border-top: 34px solid transparent;
+  border-left: 21px solid #b4272d;
+  content: "";
+  left: 172px;
+  position: absolute;
+  z-index: +1; }
+
+#arrow::after {
+  border-bottom: 34px solid transparent;
+  border-top: 34px solid transparent;
+  border-left: 21px solid rgba(148, 148, 148, 0.6);
+  content: "";
+  left: 172px;
+  position: absolute;
+  top: 4px; }
+
+@keyframes wiggle {
+  0%, 50%, 100% {
+    transform: rotate(0); }
+  7%, 43% {
+    transform: rotate(3deg); }
+  14%, 36% {
+    transform: rotate(7deg); }
+  25% {
+    transform: rotate(10deg); }
+  57%, 93% {
+    transform: rotate(-3deg); }
+  64%, 86% {
+    transform: rotate(-7deg); }
+  75% {
+    transform: rotate(-10deg); } }
+
+/**********************************************
+SKATERS
+**********************************************/
+.sk8 {
+  height: 285px;
+  margin-top: 5%;
+  width: 100%; }
+  .sk8 span {
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    margin-left: -1%;
+    line-height: 31.3%;
+    vertical-align: middle;
+    font-size: 2.2em;
+    margin-top: 17%;
+    line-height: 1.2;
+    font-weight: bolder; }
+
+.LRS {
+  display: inline-block;
+  width: 66.3%;
+  height: 100%; }
+  .LRS .lance {
+    display: inline-block;
+    width: 47.4%;
+    height: 44.6%;
+    border: 5px #FFF solid;
+    margin-left: -1px;
+    background-image: url(images/sk8er-4.png);
+    background-size: 140%;
+    background-position-x: 90%;
+    background-position-y: 39%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+    float: left; }
+  .LRS .rodney {
+    display: inline-block;
+    width: 47.4%;
+    height: 44.6%;
+    border: 5px #FFF solid;
+    margin-left: 3px;
+    background-image: url(images/sk8er-3.png);
+    background-size: 135%;
+    background-position-x: 10%;
+    background-position-y: -10px;
+    box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6);
+    float: right; }
+  .LRS .tommy {
+    display: inline-block;
+    width: 98.1%;
+    height: 44.7%;
+    border: 5px #FFF solid;
+    margin-left: -1px;
+    margin-top: 1%;
+    float: left;
+    clear: both;
+    background-size: 107%;
+    background-position-y: 69%;
+    background-position-x: 13%;
+    background-image: url(images/sk8er-1.png);
+    box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6); }
+    .LRS .tommy span {
+      margin-top: 11%;
+      margin-left: 20%;
+      font-size: 2em; }
+
+.steve {
+  display: inline-block;
+  width: 31.3%;
+  height: 94.6%;
+  border: 5px #FFF solid;
+  float: right;
+  background-image: url(images/sk8er-2.png);
+  background-size: 255%;
+  background-position-x: 78%;
+  padding-right: 0px;
+  background-repeat: no-repeat;
+  margin-right: 0.1%;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6); }
+  .steve span {
+    position: relative;
+    top: 25%; }
+
+/**********************************************
+SKATEBOARDS
+**********************************************/
+.boards {
+  margin-top: 5%;
+  background-color: WHITE;
+  height: 200px;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6); }
+  .boards .boardbar {
+    height: 93%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1.4%;
+    margin-left: 1.9%;
+    animation: silly 5s infinite; }
+
+@keyframes silly {
+  from {
+    transform: rotateY(0deg); }
+  to {
+    transform: rotateY(360deg); } }
+
+/**********************************************
+FORMBOX
+**********************************************/
+.botform {
+  width: 100%;
+  height: 250px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: white;
+  box-shadow: 0px 4px 0px rgba(148, 148, 148, 0.6); }
+  .botform .leftbox {
+    display: inline-block;
+    width: 47%;
+    padding-left: 4%; }
+    .botform .leftbox h2 {
+      font-size: 1.1em;
+      margin-top: 5%; }
+    .botform .leftbox p {
+      font-size: .75em;
+      line-height: 1.6;
+      color: grey; }
+    .botform .leftbox #iconbar2 {
+      float: left;
+      margin-left: 0;
+      padding-left: 0;
+      margin-top: 2.1%; }
+    .botform .leftbox .box2 {
+      display: inline-block;
+      height: 21px;
+      width: 21px;
+      text-align: center;
+      float: right;
+      margin-right: 4px;
+      margin-left: 0;
+      box-shadow: none;
+      -webkit-filter: grayscale(1) brightness(0.8); }
+    .botform .leftbox .box2:hover {
+      transform: none; }
+  .botform .rightbox {
+    height: 100%;
+    display: inline-block;
+    width: 45.4%;
+    float: right; }
+    .botform .rightbox form {
+      height: 100%; }
+      .botform .rightbox form input {
+        margin-top: 3.5%;
+        height: 10%;
+        width: 92%;
+        color: lightgrey;
+        font-weight: 300;
+        font-size: .7em;
+        text-align: left;
+        vertical-align: text-top;
+        padding-left: 3%;
+        border-style: groove; }
+      .botform .rightbox form input:nth-child(1) {
+        margin-top: 7%; }
+      .botform .rightbox form input:nth-child(5) {
+        height: 30%; }
+      .botform .rightbox form .submit {
+        width: 53%;
+        margin-left: 40.6%;
+        margin-top: 7%;
+        height: 11%;
+        text-align: center;
+        color: white;
+        background-color: #B4272D;
+        font-size: .9em; }

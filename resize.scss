@@ -1,0 +1,48 @@
+@media (max-width:500px){
+
+  body {
+    background-color:white;
+    background-image: none;
+      .leftarrow{
+        display:none;
+      }//leftarrow
+      .wrapper {
+        margin:0;
+        padding:0;
+        width:100%;
+      } //wrapper
+ }  //body
+ header {
+   nav {
+     display:block;
+     width:100%;
+     p{
+       display:none;
+       margin:0;
+     }
+     #iconbar {
+       margin:auto;
+       width:50%;
+       display:block;
+       float:none;
+       padding:0;
+        .box {
+          margin:0;
+        }
+        li:nth-child(5){
+          display:none;
+        }
+     }
+   }//nav
+
+
+ }//header
+
+
+
+
+
+
+
+
+} //media

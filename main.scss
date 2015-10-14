@@ -278,9 +278,6 @@ ARROW
   position: relative;
   width: 172px;
   margin-left: 13.5%;
-   @media screen and (max-width: $breakpoint-full) {
-      margin-left:9.8%;
-    }
   margin-top: 3.7%;
   box-shadow:$shadowbox;;
   animation: wiggle 1s infinite;
